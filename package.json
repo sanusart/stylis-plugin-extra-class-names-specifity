@@ -1,0 +1,36 @@
+{
+  "name": "stylis-plugin-extra-class-names-specifity",
+  "version": "1.0.0",
+  "description": "stylis plugin to use with @emotion/cache, supports stylis v4+",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "npx babel index.js --out-dir lib",
+    "start": "npx babel index.js --watch --out-dir lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanusart/stylis-plugin-extra-class-names-specifity.git"
+  },
+  "keywords": [
+    "stylis",
+    "emotion",
+    "emotionjs",
+    "stylis-plugin"
+  ],
+  "author": "Sasha Khamkov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sanusart/stylis-plugin-extra-class-names-specifity/issues"
+  },
+  "homepage": "https://github.com/sanusart/stylis-plugin-extra-class-names-specifity#readme",
+  "devDependencies": {
+    "@babel/cli": "7.16.8",
+    "@babel/core": "7.16.12",
+    "@babel/preset-env": "7.16.11",
+    "stylis": "4.0.13"
+  },
+  "dependencies": {
+    "jest": "27.4.7"
+  }
+}
